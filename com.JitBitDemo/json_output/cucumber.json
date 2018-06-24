@@ -1,0 +1,907 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Login into JitBit and add users",
+        "description": "",
+        "id": "login-into-jitbit-with-valid-credentials;login-into-jitbit-and-add-users;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7460100807,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on signin page and clicks on signin",
+            "match": {
+              "location": "JitBitStepDefs.user_is_on_signin_page_and_clicks_on_signin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3601594828,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"28rajag@gmail.com\" and \"Welcome1234\" and clicks login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28rajag@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome1234",
+                  "offset": 37
+                }
+              ],
+              "location": "JitBitStepDefs.user_enters_and_and_clicks_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5425381084,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on adminstration link and user companies and permissions link successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_and_user_companies_and_permissions_link_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18157242554,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on add user button and enters \"Patrick.chatee@sqa-consulting.com\" and \"Patrick\" and \"Patrick12\" and clicks on create and continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patrick.chatee@sqa-consulting.com",
+                  "offset": 43
+                },
+                {
+                  "val": "Patrick",
+                  "offset": 83
+                },
+                {
+                  "val": "Patrick12",
+                  "offset": 97
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_add_user_button_and_enters_and_and_and_clicks_on_create_and_continue_button(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15299980328,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on adminstration link clicks on Ticket categories and enters \"Patrick\" and adds new category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patrick",
+                  "offset": 74
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_clicks_on_Ticket_categories_and_enters_and_adds_new_category(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22253441180,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Tickets and clicks on new ticket and enters \"Patrick.chatee@sqa-consulting.com\" and  \"Application Error\" and \"Application Crash\" selects priority and clicks on submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patrick.chatee@sqa-consulting.com",
+                  "offset": 60
+                },
+                {
+                  "val": "Application Error",
+                  "offset": 101
+                },
+                {
+                  "val": "Application Crash",
+                  "offset": 125
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_Tickets_and_clicks_on_new_ticket_and_enters_and_and_selects_priority_and_clicks_on_submit(String,String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10457200228,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Reports and generates the report",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_Reports_and_generates_the_report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5395137207,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user again navigates to Administration and deletes user and category",
+            "match": {
+              "location": "JitBitStepDefs.user_again_navigates_to_Administration_and_deletes_user_and_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4253222561,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on logout link and logsout successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_logout_link_and_logsout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Login into JitBit and add users",
+        "description": "",
+        "id": "login-into-jitbit-with-valid-credentials;login-into-jitbit-and-add-users;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6688006926,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on signin page and clicks on signin",
+            "match": {
+              "location": "JitBitStepDefs.user_is_on_signin_page_and_clicks_on_signin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3736017507,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"28rajag@gmail.com\" and \"Welcome1234\" and clicks login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28rajag@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome1234",
+                  "offset": 37
+                }
+              ],
+              "location": "JitBitStepDefs.user_enters_and_and_clicks_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5414634367,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on adminstration link and user companies and permissions link successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_and_user_companies_and_permissions_link_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18680524400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on add user button and enters \"Richard.Clark@sqa-consulting.com\" and \"Richard\" and \"Richard12\" and clicks on create and continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Richard.Clark@sqa-consulting.com",
+                  "offset": 43
+                },
+                {
+                  "val": "Richard",
+                  "offset": 82
+                },
+                {
+                  "val": "Richard12",
+                  "offset": 96
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_add_user_button_and_enters_and_and_and_clicks_on_create_and_continue_button(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15266122245,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on adminstration link clicks on Ticket categories and enters \"Richard\" and adds new category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Richard",
+                  "offset": 74
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_clicks_on_Ticket_categories_and_enters_and_adds_new_category(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21327383660,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Tickets and clicks on new ticket and enters \"Richard.Clark@sqa-consulting.com\" and  \"System Error\" and \"Application Removed\" selects priority and clicks on submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Richard.Clark@sqa-consulting.com",
+                  "offset": 60
+                },
+                {
+                  "val": "System Error",
+                  "offset": 100
+                },
+                {
+                  "val": "Application Removed",
+                  "offset": 119
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_Tickets_and_clicks_on_new_ticket_and_enters_and_and_selects_priority_and_clicks_on_submit(String,String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10709594754,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Reports and generates the report",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_Reports_and_generates_the_report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5511999342,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user again navigates to Administration and deletes user and category",
+            "match": {
+              "location": "JitBitStepDefs.user_again_navigates_to_Administration_and_deletes_user_and_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4220961647,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on logout link and logsout successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_logout_link_and_logsout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Login into JitBit and add users",
+        "description": "",
+        "id": "login-into-jitbit-with-valid-credentials;login-into-jitbit-and-add-users;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5917933483,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on signin page and clicks on signin",
+            "match": {
+              "location": "JitBitStepDefs.user_is_on_signin_page_and_clicks_on_signin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3533124632,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"28rajag@gmail.com\" and \"Welcome1234\" and clicks login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28rajag@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome1234",
+                  "offset": 37
+                }
+              ],
+              "location": "JitBitStepDefs.user_enters_and_and_clicks_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5608862133,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on adminstration link and user companies and permissions link successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_and_user_companies_and_permissions_link_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12978142202,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on add user button and enters \"Deepak.sharma@sqa-consulting.com\" and \"Deepak\" and \"Deepak12\" and clicks on create and continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deepak.sharma@sqa-consulting.com",
+                  "offset": 43
+                },
+                {
+                  "val": "Deepak",
+                  "offset": 82
+                },
+                {
+                  "val": "Deepak12",
+                  "offset": 95
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_add_user_button_and_enters_and_and_and_clicks_on_create_and_continue_button(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15079808959,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on adminstration link clicks on Ticket categories and enters \"Deepak\" and adds new category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deepak",
+                  "offset": 74
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_clicks_on_Ticket_categories_and_enters_and_adds_new_category(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21538430402,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Tickets and clicks on new ticket and enters \"Deepak.sharma@sqa-consulting.com\" and  \"App Install Request\" and \"Application Not Installed\" selects priority and clicks on submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Deepak.sharma@sqa-consulting.com",
+                  "offset": 60
+                },
+                {
+                  "val": "App Install Request",
+                  "offset": 100
+                },
+                {
+                  "val": "Application Not Installed",
+                  "offset": 126
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_Tickets_and_clicks_on_new_ticket_and_enters_and_and_selects_priority_and_clicks_on_submit(String,String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10655404679,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Reports and generates the report",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_Reports_and_generates_the_report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5599095240,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user again navigates to Administration and deletes user and category",
+            "match": {
+              "location": "JitBitStepDefs.user_again_navigates_to_Administration_and_deletes_user_and_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6801805367,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on logout link and logsout successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_logout_link_and_logsout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Login into JitBit and add users",
+        "description": "",
+        "id": "login-into-jitbit-with-valid-credentials;login-into-jitbit-and-add-users;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6522875945,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on signin page and clicks on signin",
+            "match": {
+              "location": "JitBitStepDefs.user_is_on_signin_page_and_clicks_on_signin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6177399727,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"28rajag@gmail.com\" and \"Welcome1234\" and clicks login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28rajag@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome1234",
+                  "offset": 37
+                }
+              ],
+              "location": "JitBitStepDefs.user_enters_and_and_clicks_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5336715958,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on adminstration link and user companies and permissions link successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_and_user_companies_and_permissions_link_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11683085155,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on add user button and enters \"Raj.kumar@sqa-consulting.com\" and \"RajKum\" and \"Rakkum12\" and clicks on create and continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raj.kumar@sqa-consulting.com",
+                  "offset": 43
+                },
+                {
+                  "val": "RajKum",
+                  "offset": 78
+                },
+                {
+                  "val": "Rakkum12",
+                  "offset": 91
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_add_user_button_and_enters_and_and_and_clicks_on_create_and_continue_button(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15069114727,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on adminstration link clicks on Ticket categories and enters \"RajKumar\" and adds new category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RajKumar",
+                  "offset": 74
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_clicks_on_Ticket_categories_and_enters_and_adds_new_category(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21830849667,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Tickets and clicks on new ticket and enters \"Raj.kumar@sqa-consulting.com\" and  \"Telephony Issue\" and \"Telephony Failed\" selects priority and clicks on submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raj.kumar@sqa-consulting.com",
+                  "offset": 60
+                },
+                {
+                  "val": "Telephony Issue",
+                  "offset": 96
+                },
+                {
+                  "val": "Telephony Failed",
+                  "offset": 118
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_Tickets_and_clicks_on_new_ticket_and_enters_and_and_selects_priority_and_clicks_on_submit(String,String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10490818169,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Reports and generates the report",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_Reports_and_generates_the_report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5352574368,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user again navigates to Administration and deletes user and category",
+            "match": {
+              "location": "JitBitStepDefs.user_again_navigates_to_Administration_and_deletes_user_and_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4302908848,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on logout link and logsout successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_logout_link_and_logsout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Login into JitBit and add users",
+        "description": "",
+        "id": "login-into-jitbit-with-valid-credentials;login-into-jitbit-and-add-users;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6403064147,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on signin page and clicks on signin",
+            "match": {
+              "location": "JitBitStepDefs.user_is_on_signin_page_and_clicks_on_signin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3604114049,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"28rajag@gmail.com\" and \"Welcome1234\" and clicks login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "28rajag@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Welcome1234",
+                  "offset": 37
+                }
+              ],
+              "location": "JitBitStepDefs.user_enters_and_and_clicks_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5300167231,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on adminstration link and user companies and permissions link successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_and_user_companies_and_permissions_link_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11473122072,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on add user button and enters \"Fayaz.mohammed@sqa-consulting.com\" and \"FayazM\" and \"Fayazz12\" and clicks on create and continue button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fayaz.mohammed@sqa-consulting.com",
+                  "offset": 43
+                },
+                {
+                  "val": "FayazM",
+                  "offset": 83
+                },
+                {
+                  "val": "Fayazz12",
+                  "offset": 96
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_add_user_button_and_enters_and_and_and_clicks_on_create_and_continue_button(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15041262828,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on adminstration link clicks on Ticket categories and enters \"Fayaz\" and adds new category",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fayaz",
+                  "offset": 74
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_adminstration_link_clicks_on_Ticket_categories_and_enters_and_adds_new_category(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21397946789,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Tickets and clicks on new ticket and enters \"Fayaz.mohammed@sqa-consulting.com\" and  \"Missing Driver\" and \"Driver Failed\" selects priority and clicks on submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fayaz.mohammed@sqa-consulting.com",
+                  "offset": 60
+                },
+                {
+                  "val": "Missing Driver",
+                  "offset": 101
+                },
+                {
+                  "val": "Driver Failed",
+                  "offset": 122
+                }
+              ],
+              "location": "JitBitStepDefs.user_clicks_on_Tickets_and_clicks_on_new_ticket_and_enters_and_and_selects_priority_and_clicks_on_submit(String,String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11247822017,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on Reports and generates the report",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_Reports_and_generates_the_report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5538370367,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user again navigates to Administration and deletes user and category",
+            "match": {
+              "location": "JitBitStepDefs.user_again_navigates_to_Administration_and_deletes_user_and_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4421845413,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on logout link and logsout successfully",
+            "match": {
+              "location": "JitBitStepDefs.user_clicks_on_logout_link_and_logsout_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into JitBit with valid credentials",
+    "description": "",
+    "id": "login-into-jitbit-with-valid-credentials",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sai/eclipse-workspace/com.JitBitDemo/Features/JitBit.feature"
+  }
+]

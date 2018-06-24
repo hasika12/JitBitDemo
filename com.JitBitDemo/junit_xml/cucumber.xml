@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="442.765211">
+<testcase classname="Login into JitBit with valid credentials" name="Login into JitBit and add users" time="92.303301">
+<system-out><![CDATA[Given user is on signin page and clicks on signin...........................passed
+Then user enters "28rajag@gmail.com" and "Welcome1234" and clicks login button.passed
+Then user clicks on adminstration link and user companies and permissions link successfully.passed
+Then user clicks on add user button and enters "Patrick.chatee@sqa-consulting.com" and "Patrick" and "Patrick12" and clicks on create and continue button.passed
+Then user clicks on adminstration link clicks on Ticket categories and enters "Patrick" and adds new category.passed
+Then user clicks on Tickets and clicks on new ticket and enters "Patrick.chatee@sqa-consulting.com" and  "Application Error" and "Application Crash" selects priority and clicks on submit.passed
+Then user clicks on Reports and generates the report........................passed
+Then user again navigates to Administration and deletes user and category...passed
+Then user clicks on logout link and logsout successfully....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login into JitBit with valid credentials" name="Login into JitBit and add users 2" time="91.555245">
+<system-out><![CDATA[Given user is on signin page and clicks on signin...........................passed
+Then user enters "28rajag@gmail.com" and "Welcome1234" and clicks login button.passed
+Then user clicks on adminstration link and user companies and permissions link successfully.passed
+Then user clicks on add user button and enters "Richard.Clark@sqa-consulting.com" and "Richard" and "Richard12" and clicks on create and continue button.passed
+Then user clicks on adminstration link clicks on Ticket categories and enters "Richard" and adds new category.passed
+Then user clicks on Tickets and clicks on new ticket and enters "Richard.Clark@sqa-consulting.com" and  "System Error" and "Application Removed" selects priority and clicks on submit.passed
+Then user clicks on Reports and generates the report........................passed
+Then user again navigates to Administration and deletes user and category...passed
+Then user clicks on logout link and logsout successfully....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login into JitBit with valid credentials" name="Login into JitBit and add users 3" time="87.712607">
+<system-out><![CDATA[Given user is on signin page and clicks on signin...........................passed
+Then user enters "28rajag@gmail.com" and "Welcome1234" and clicks login button.passed
+Then user clicks on adminstration link and user companies and permissions link successfully.passed
+Then user clicks on add user button and enters "Deepak.sharma@sqa-consulting.com" and "Deepak" and "Deepak12" and clicks on create and continue button.passed
+Then user clicks on adminstration link clicks on Ticket categories and enters "Deepak" and adds new category.passed
+Then user clicks on Tickets and clicks on new ticket and enters "Deepak.sharma@sqa-consulting.com" and  "App Install Request" and "Application Not Installed" selects priority and clicks on submit.passed
+Then user clicks on Reports and generates the report........................passed
+Then user again navigates to Administration and deletes user and category...passed
+Then user clicks on logout link and logsout successfully....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login into JitBit with valid credentials" name="Login into JitBit and add users 4" time="86.766343">
+<system-out><![CDATA[Given user is on signin page and clicks on signin...........................passed
+Then user enters "28rajag@gmail.com" and "Welcome1234" and clicks login button.passed
+Then user clicks on adminstration link and user companies and permissions link successfully.passed
+Then user clicks on add user button and enters "Raj.kumar@sqa-consulting.com" and "RajKum" and "Rakkum12" and clicks on create and continue button.passed
+Then user clicks on adminstration link clicks on Ticket categories and enters "RajKumar" and adds new category.passed
+Then user clicks on Tickets and clicks on new ticket and enters "Raj.kumar@sqa-consulting.com" and  "Telephony Issue" and "Telephony Failed" selects priority and clicks on submit.passed
+Then user clicks on Reports and generates the report........................passed
+Then user again navigates to Administration and deletes user and category...passed
+Then user clicks on logout link and logsout successfully....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login into JitBit with valid credentials" name="Login into JitBit and add users 5" time="84.427715">
+<system-out><![CDATA[Given user is on signin page and clicks on signin...........................passed
+Then user enters "28rajag@gmail.com" and "Welcome1234" and clicks login button.passed
+Then user clicks on adminstration link and user companies and permissions link successfully.passed
+Then user clicks on add user button and enters "Fayaz.mohammed@sqa-consulting.com" and "FayazM" and "Fayazz12" and clicks on create and continue button.passed
+Then user clicks on adminstration link clicks on Ticket categories and enters "Fayaz" and adds new category.passed
+Then user clicks on Tickets and clicks on new ticket and enters "Fayaz.mohammed@sqa-consulting.com" and  "Missing Driver" and "Driver Failed" selects priority and clicks on submit.passed
+Then user clicks on Reports and generates the report........................passed
+Then user again navigates to Administration and deletes user and category...passed
+Then user clicks on logout link and logsout successfully....................passed
+]]></system-out>
+</testcase>
+</testsuite>
